@@ -83,7 +83,6 @@ public class ConceptAprilTag extends LinearOpMode {
 
     @Override
     public void runOpMode() {
-
         initAprilTag();
 
         // Wait for the DS start button to be touched.
@@ -94,7 +93,6 @@ public class ConceptAprilTag extends LinearOpMode {
 
         if (opModeIsActive()) {
             while (opModeIsActive()) {
-
                 telemetryAprilTag();
 
                 // Push telemetry to the Driver Station.
